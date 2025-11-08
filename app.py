@@ -1,4 +1,12 @@
-import io, numpy as np, pandas as pd, matplotlib.pyplot as plt
+import os
+os.environ["MPLBACKEND"] = "Agg"  # Headless-Backend
+
+import io
+import numpy as np
+import pandas as pd
+import matplotlib
+matplotlib.use("Agg")
+import matplotlib.pyplot as plt
 import streamlit as st
 from reportlab.lib.pagesizes import A4
 from reportlab.lib.styles import getSampleStyleSheet
