@@ -1,6 +1,7 @@
-streamlit
-pandas
-openpyxl
-numpy
-reportlab
-matplotlib
+streamlit==1.39.0
+pandas==2.2.2
+numpy==1.26.4
+openpyxl==3.1.5
+matplotlib==3.8.4
+reportlab==4.2.2
+pillow==10.4.0
